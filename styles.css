@@ -5,30 +5,25 @@ body {
     box-sizing: border-box;
 }
 
+h2 {
+    text-transform: uppercase;
+}
+
+h3 {
+    font-weight: 400;
+    text-align: center;
+}
+
+
 header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-    background-color: transparent;
+    text-align: center;
+    background-color: #745e4d;
 }
 
-header .logo img {
-    height: 50px;
-    border-radius: 50%;
+header img {
+    max-width: 200px;
+    height: auto;
 }
-
-header nav ul {
-    list-style: none;
-    display: flex;
-    gap: 20px;
-}
-
-header nav ul li a {
-    color: #745E4D;
-    text-decoration: none;
-}
-
 
 
 
@@ -36,86 +31,40 @@ header nav ul li a {
     background: url('hero-bg.jpg') no-repeat center center/cover;
     color: #fff;
     text-align: center;
-    padding: 400px 20px;
+    padding: 100px 20px;
 }
 
-.hero .btn {
-    background-color: #ff6347;
-    color: #fff;
-    padding: 10px 20px;
-    text-decoration: none;
-    border-radius: 5px;
+#home h2 {
+    border-top: 4px dashed white;
+    border-bottom: 4px dashed white;
+    width: 11.5%;
+    margin: 0 auto;
+    padding: 10px 0;
 }
 
-.about, .coffee, .roastery, .testimonials, .location {
-    padding: 60px 20px;
+
+
+.roastery, .about {
+    padding: 60px 100px;
     text-align: center;
+    border: 1px solid red;
 }
 
-.coffee-cards {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    margin-top: 20px;
-}
 
-.coffee-card, .step {
+
+.step {
     background: #f9f9f9;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: left;
     margin-bottom: 20px;
-}
-
-.coffee-card img {
-    width: 100%;
-    border-radius: 10px;
-}
-
-.coffee-card h3 {
-    margin-top: 15px;
-}
-
-.coffee-card .btn {
-    background-color: #ff6347;
-    color: #fff;
-    padding: 10px;
-    text-decoration: none;
-    border-radius: 5px;
-    display: inline-block;
-    margin-top: 10px;
+    max-width: 300px;
 }
 
 .steps {
     display: flex;
     justify-content: space-around;
-    margin-top: 20px;
-}
-
-.step {
-    max-width: 300px;
-}
-
-.testimonial-slider {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-}
-
-.testimonial {
-    background: #f9f9f9;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    text-align: left;
-}
-
-.testimonial p {
-    font-style: italic;
-}
-
-.location .map {
     margin-top: 20px;
 }
 
@@ -136,41 +85,23 @@ footer .social-media a {
     margin: 0 10px;
 }
 
-footer .newsletter form {
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-}
-
-footer .newsletter input {
-    padding: 10px;
-    border: none;
-    border-radius: 5px;
-    width: 200px;
-}
-
-footer .newsletter button {
-    padding: 10px 20px;
-    background-color: #ff6347;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
 footer p {
     margin-top: 20px;
 }
 
 /* Responsive Styles */
 @media (max-width: 768px) {
-    header nav ul {
-        flex-direction: row;
-        align-items: center;
+
+    .steps {
         flex-wrap: wrap;
     }
 
-    .coffee-cards, .steps, .testimonial-slider {
-        flex-wrap: wrap;
+    .roastery, .about {
+        padding: 60px 20px;
+        font-size: 13px;
     }
+
+    #home h2 {
+        width: 50%;
+    }    
 }
