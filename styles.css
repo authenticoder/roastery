@@ -1,8 +1,21 @@
-body {
-    font-family: "Montserrat", sans-serif;
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    background-color: #745e4d;
+}
+
+p {
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
 
 h2 {
@@ -30,8 +43,16 @@ header img {
 .hero {
     background: url('hero-bg.jpg') no-repeat center center/cover;
     color: #fff;
+    opacity: 0.7;
     text-align: center;
     padding: 100px 20px;
+}
+
+.info {
+    text-align: left;
+    color: #fff;
+    font-size: 16px;
+    padding: 20px 100px;
 }
 
 #home h2 {
@@ -42,13 +63,21 @@ header img {
     padding: 10px 0;
 }
 
+#roastery h3 {
+    text-transform: uppercase;
+    font-weight: bold;
+}
 
 
-.roastery, .about {
-    padding: 60px 100px;
+
+.roastery {
+    padding: 20px;
     text-align: center;
 }
 
+.white {
+    color: #fff;
+}
 
 
 .step {
@@ -57,35 +86,55 @@ header img {
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: left;
-    margin-bottom: 20px;
-    max-width: 300px;
+    margin: 20px;
 }
 
 .steps {
     display: flex;
     justify-content: space-around;
-    margin-top: 20px;
+    padding: 60px;
 }
 
-footer {
-    background-color: #333;
-    color: #fff;
-    padding: 40px 20px;
+#delivery {
+    padding: 60px 100px;
+    color: #f9f9f9;
+}
+
+#delivery h2 {
+    color: #f9f9f9;
     text-align: center;
 }
 
-footer .contact-info, footer .social-media, footer .newsletter {
-    margin-bottom: 20px;
+
+
+.footer {
+    background-color: #745e4d;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: sticky;
+    bottom: 0;
+    width: 100%;
 }
 
-footer .social-media a {
-    color: #fff;
-    text-decoration: none;
+.social-icons {
+    margin-bottom: 10px;
+}
+
+.social-icons a {
+    color: white;
     margin: 0 10px;
+    text-decoration: none;
+    font-size: 24px;
 }
 
-footer p {
-    margin-top: 20px;
+.social-icons a:hover {
+    color: #999;
+}
+
+.footer p {
+    margin: 0;
+    font-size: 14px;
 }
 
 /* Responsive Styles */
@@ -93,14 +142,43 @@ footer p {
 
     .steps {
         flex-wrap: wrap;
+        text-align: left;
+        padding: 20px 0;
     }
 
-    .roastery, .about {
+    .step {
+        margin: 10px 0;
+    }
+
+    .roastery {
         padding: 60px 20px;
-        font-size: 13px;
+        font-size: 16px;
+        text-align: left
+    }
+
+    #roastery h3 {
+        text-align: left;
+        margin-bottom: 10px;
     }
 
     #home h2 {
         width: 50%;
-    }    
+    }  
+
+    #delivery {
+        padding: 20px;
+    }
+
+    #delivery h2 {
+        text-align: left;
+    }
+
+    .white {
+        text-align: left;
+    }
+
+    .info {
+        padding: 20px;
+    }
+
 }
