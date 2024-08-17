@@ -9,9 +9,10 @@ html, body {
 }
 
 body {
-    font-family: "Montserrat", sans-serif;
+    font-family: "Bodoni Moda", serif;
+    font-weight: 400;
     /* background-color: #745e4d; */
-    background-color: #fff;
+    background-color: #f4f0db;
 }
 
 p {
@@ -32,7 +33,7 @@ h3 {
 header {
     text-align: center;
     /* background-color: #745e4d; */
-    background-color: #fff;
+    background-color: #f4f0db;
 }
 
 header img {
@@ -44,7 +45,7 @@ header img {
 
 .hero {
     background: url('hero-bg.jpg') no-repeat center center/cover;
-    color: #fff;
+    color: #f4f0db;
     text-align: center;
     padding: 100px 20px;
 }
@@ -57,8 +58,8 @@ header img {
 }
 
 #home h2 {
-    border-top: 4px dashed white;
-    border-bottom: 4px dashed white;
+    border-top: 4px dashed #f4f0db;
+    border-bottom: 4px dashed #f4f0db;
     width: 11.5%;
     margin: 0 auto;
     padding: 10px 0;
@@ -82,7 +83,7 @@ header img {
 
 
 .step {
-    background: #fff;
+    background: #f4f0db;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -109,7 +110,7 @@ header img {
 
 
 .footer {
-    background-color: white;
+    background-color: #f4f0db;
     color: #745e4d;
     text-align: center;
     padding: 10px 0;
