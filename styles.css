@@ -9,9 +9,8 @@ html, body {
 }
 
 body {
-    font-family: "Bodoni Moda", serif;
+    font-family: "Open Sans", sans-serif;
     font-weight: 400;
-    /* background-color: #745e4d; */
     background-color: #f4f0db;
 }
 
@@ -32,7 +31,6 @@ h3 {
 
 header {
     text-align: center;
-    /* background-color: #745e4d; */
     background-color: #f4f0db;
 }
 
