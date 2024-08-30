@@ -19,6 +19,11 @@ p {
     margin-top: 10px;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
+
 h2 {
     text-transform: uppercase;
 }
@@ -61,6 +66,12 @@ header img {
     width: 11.5%;
     margin: 0 auto;
     padding: 10px 0;
+}
+
+.about, .roastery, #delivery {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #f0eee6;
 }
 
 #roastery h3 {
