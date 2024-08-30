@@ -51,6 +51,8 @@ header img {
     color: #f4f0db;
     text-align: center;
     padding: 100px 20px;
+    margin: 0 10px 30px 10px;
+    border-radius: 8px;
 }
 
 .info {
@@ -69,9 +71,10 @@ header img {
 }
 
 .about, .roastery, #delivery {
-    width: 80%;
+    width: 85%;
     margin: 0 auto;
     background-color: #f0eee6;
+    border-radius: 8px;
 }
 
 #roastery h3 {
