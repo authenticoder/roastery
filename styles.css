@@ -143,7 +143,7 @@ header img {
 }
 
 .product-price {
-    color: #745e4d;
+    color: black;
     margin-bottom: 15px;
 }
 
@@ -163,16 +163,9 @@ h3.product-title {
 
 .add-to-cart-btn:hover {
     background-color: #f4f0db;
+    color: #745e4d;
+    border: 1px solid #745e4d;
 }
-
-/* Responsive adjustments */
-@media (max-width: 768px) {
-    .product-card {
-        max-width: 100%;
-    }
-}
-
-
 
 #delivery {
     padding: 60px 100px;
@@ -276,6 +269,10 @@ button:hover {
     #home h2 {
         width: 50%;
     }  
+
+    .product-card {
+        max-width: 100%;
+    }
 
     #delivery, #contact, #products {
         padding: 20px;
