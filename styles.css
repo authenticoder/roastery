@@ -70,7 +70,7 @@ header img {
     padding: 10px 0;
 }
 
-.about, .roastery, #delivery {
+.about, .roastery, #delivery, #contact {
     width: 85%;
     margin: 0 auto;
     background-color: #f0eee6;
@@ -114,11 +114,46 @@ header img {
     color: #745e4d;
 }
 
-#delivery h2 {
+#delivery h2, #contact h2 {
     color: #745e4d;
     text-align: center;
 }
 
+
+
+form {
+    background-color: #745e4d;
+    border-radius: 8px;
+    padding: 20px; /* Adjust padding if necessary */
+    margin: 20px auto; /* Center form */
+    max-width: 600px;
+}
+
+input[type="text"], input[type="email"], textarea {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #f4f0db;
+    border-radius: 5px;
+    background-color: #f4f0db; /* Match input background */
+    color: black; /* Match your text color */
+}
+
+button {
+    background-color: #745e4d; 
+    color: #f4f0db; /* Button text color */
+    border: 1px solid #f4f0db;
+    border-radius: 7px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #f4f0db; /* Hover effect */
+}
 
 
 .footer {
@@ -179,11 +214,11 @@ header img {
         width: 50%;
     }  
 
-    #delivery {
+    #delivery, #contact {
         padding: 20px;
     }
 
-    #delivery h2 {
+    #delivery h2, #contact h2 {
         text-align: left;
     }
 

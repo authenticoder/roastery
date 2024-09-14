@@ -70,6 +70,17 @@
         </div>
      </section>
 
+     <section id="contact">
+         <h2>Contact Us</h2>
+         <form id="contact-form">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+          </form>
+     </section>
+      
+
     <footer class="footer">
         <div class="social-icons">
             <a href="https://x.com/65degreescoffee" target="_blank"><i class="fab fa-twitter"></i></a>
@@ -80,5 +91,13 @@
         </div>
         <p>&copy; 2024 65° Specialty Coffee Roastery. All rights reserved.</p>
     </footer>
+
+    <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function(){
+            emailjs.init("heuYWXo-BcBdI3oxi");
+        })();
+    </script>
+
 </body>
 </html>
