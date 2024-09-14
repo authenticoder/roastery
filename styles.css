@@ -70,7 +70,7 @@ header img {
     padding: 10px 0;
 }
 
-.about, .roastery, #delivery, #contact {
+.about, .roastery, #delivery, #contact, #products {
     width: 85%;
     margin: 0 auto;
     background-color: #f0eee6;
@@ -81,8 +81,6 @@ header img {
     text-transform: uppercase;
     font-weight: bold;
 }
-
-
 
 .roastery {
     padding: 20px;
@@ -109,17 +107,82 @@ header img {
     padding: 60px;
 }
 
+/* Flexbox container for the product cards */
+.product-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 20px;
+    padding: 20px;
+}
+
+/* Each product card */
+.product-card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 15px;
+    width: 100%;
+    max-width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.product-card:hover {
+    transform: scale(1.05);
+}
+
+.product-img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.product-title {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.product-price {
+    color: #745e4d;
+    margin-bottom: 15px;
+}
+
+h3.product-title {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.add-to-cart-btn {
+    background-color: #745e4d;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.add-to-cart-btn:hover {
+    background-color: #f4f0db;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .product-card {
+        max-width: 100%;
+    }
+}
+
+
+
 #delivery {
     padding: 60px 100px;
     color: #745e4d;
 }
 
-#delivery h2, #contact h2 {
+#delivery h2, #contact h2, #products h2 {
     color: #745e4d;
     text-align: center;
 }
-
-
 
 form {
     background-color: #745e4d;
@@ -205,7 +268,7 @@ button:hover {
         text-align: left
     }
 
-    #roastery h3 {
+    #roastery h3, #products h2 {
         text-align: left;
         margin-bottom: 10px;
     }
@@ -214,7 +277,7 @@ button:hover {
         width: 50%;
     }  
 
-    #delivery, #contact {
+    #delivery, #contact, #products {
         padding: 20px;
     }
 
