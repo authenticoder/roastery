@@ -10,8 +10,9 @@ html, body {
 
 body {
     font-family: "Open Sans", sans-serif;
-    font-weight: 400;
-    background-color: #f4f0db;
+    font-weight: 500;
+    background-color: #f2f2f2;
+    color: #7e7d7d;
 }
 
 p {
@@ -19,9 +20,10 @@ p {
     margin-top: 10px;
 }
 
-a {
+h3 a {
     text-decoration: none;
-    color: black;
+    color: #231f20;
+    font-weight: bold;
 }
 
 h2 {
@@ -33,10 +35,17 @@ h3 {
     text-align: center;
 }
 
+h1, h2, h3 {
+    color: #231f20;
+}
+
+section {
+    background-color: #f5f4f0;
+}
+
 
 header {
     text-align: center;
-    background-color: #f4f0db;
 }
 
 header img {
@@ -48,7 +57,6 @@ header img {
 
 .hero {
     background: url('hero-bg.jpg') no-repeat center center/cover;
-    color: #f4f0db;
     text-align: center;
     padding: 100px 20px;
     margin: 0 10px 30px 10px;
@@ -57,7 +65,6 @@ header img {
 
 .info {
     text-align: left;
-    color: #745e4d;
     font-size: 16px;
     padding: 20px 100px;
 }
@@ -68,12 +75,12 @@ header img {
     width: 11.5%;
     margin: 0 auto;
     padding: 10px 0;
+    color: #f2f2f2;;
 }
 
 .about, .roastery, #delivery, #contact, #products {
     width: 85%;
     margin: 0 auto;
-    background-color: #f0eee6;
     border-radius: 8px;
 }
 
@@ -87,13 +94,7 @@ header img {
     text-align: center;
 }
 
-.white {
-    color: #745e4d;
-}
-
-
 .step {
-    background: #f4f0db;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -153,8 +154,6 @@ h3.product-title {
 }
 
 .add-to-cart-btn {
-    background-color: #745e4d;
-    color: white;
     border: none;
     padding: 10px 15px;
     cursor: pointer;
@@ -162,23 +161,19 @@ h3.product-title {
 }
 
 .add-to-cart-btn:hover {
-    background-color: #f4f0db;
-    color: #745e4d;
+    background-color: #f2f2f2;
     border: 1px solid #745e4d;
 }
 
 #delivery {
     padding: 60px 100px;
-    color: #745e4d;
 }
 
 #delivery h2, #contact h2, #products h2 {
-    color: #745e4d;
     text-align: center;
 }
 
 form {
-    background-color: #745e4d;
     border-radius: 8px;
     padding: 20px; /* Adjust padding if necessary */
     margin: 20px auto; /* Center form */
@@ -194,13 +189,11 @@ input[type="text"], input[type="email"], textarea {
     outline: none;
     border-bottom: 1px solid #f4f0db;
     border-radius: 5px;
-    background-color: #f4f0db; /* Match input background */
-    color: black; /* Match your text color */
+    background-color: #f2f2f2; /* Match input background */
+    color: #231f20; /* Match your text color */
 }
 
 button {
-    background-color: #745e4d; 
-    color: #f4f0db; /* Button text color */
     border: 1px solid #f4f0db;
     border-radius: 7px;
     padding: 10px 20px;
@@ -208,13 +201,14 @@ button {
 }
 
 button:hover {
-    background-color: #f4f0db; /* Hover effect */
+    background-color: #f2f2f2; /* Hover effect */
+    border: 1px solid #231f20;
 }
 
 
 .footer {
     background-color: #f4f0db;
-    color: #745e4d;
+    color: #231f20;
     text-align: center;
     padding: 10px 0;
     position: sticky;
@@ -227,7 +221,7 @@ button:hover {
 }
 
 .social-icons a {
-    color: #745e4d;
+    color: #231f20;
     margin: 0 10px;
     text-decoration: none;
     font-size: 24px;
