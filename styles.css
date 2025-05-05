@@ -173,7 +173,8 @@ ul li a:hover {
 }
 
 #home div {
-  width: 600px;
+  width: 100%;
+  min-width: 600px;
   padding: 115px 85px;
   display: flex;
   flex-direction: column;
@@ -207,7 +208,8 @@ section#choose-us {
 }
 
 #choose-us div {
-  max-width: 540px;
+  width: 100%;
+  min-width: 540px;
   height: 160px;
   margin: 100px auto;
 }
@@ -222,6 +224,7 @@ section#choose-us {
   display: flex;
   justify-content: center;
   gap: 20px;
+  width: 100%;
   max-width: 800px;
   margin: 0 auto;
 }
@@ -232,7 +235,8 @@ section#choose-us {
   padding: 20px;
   border-radius: 8px 40px;
   height: 300px;
-  max-width: 500px;
+  width: 100%;
+  min-width: 500px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -276,7 +280,8 @@ i {
 }
 
 figure {
-  width: 300px;
+  width: 70%;
+  min-width: 300px;
   height: 500px;
   display: flex;
   flex-direction: column;
@@ -388,7 +393,8 @@ footer .icons {
   }
 
   #products {
-    width: 600px;
+    width: 100%;
+    min-width: 600px;
   }
 
   #products h2:first-child {
@@ -417,7 +423,8 @@ footer .icons {
   }
 
   #choose-us {
-    width: 600px;
+    width: 100%;
+    min-width: 600px;
   }
 
   #reasons-to-choose-us {
@@ -425,11 +432,12 @@ footer .icons {
     justify-content: center;
     align-items: center;
     margin-top: -100px;
+    margin-left: 100px;
   }
 
   .reason {
-    margin-left: 110px;
-    margin-right: -110px;
+    width: 100%;
+    min-width: 400px;
   }
 
   footer {
