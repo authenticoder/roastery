@@ -395,6 +395,7 @@ footer .logo img {
     opacity: 1;
     color: #2c343e;
     border-bottom: 5px ridge #2c343e;
+    margin-top: -150px;
   }
 
   div.products {
