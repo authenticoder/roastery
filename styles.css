@@ -445,6 +445,11 @@ figcaption {
   align-items: baseline;
   padding: 45px 85px;
   background: #2c343e;
+  background: #f4efdc;
+}
+
+#contact a {
+  color: #2c343e;
 }
 
 footer ul div {
