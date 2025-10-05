@@ -70,7 +70,6 @@ a {
 }
 
 body {
-  /* background: #fefcf7; */
   font-family: "Fraunces", serif;
   color: #333d4b;
   padding: 0 80px;
@@ -98,7 +97,6 @@ section {
 
 nav {
   width: clamp(300px, 100%, 100vw);
-  /* background: #fefcf7; */
   background: #f4efdc;
   display: flex;
   flex-direction: column;
@@ -120,6 +118,9 @@ nav img {
   width: 60px;
   height: 60px;
   border-radius: 50%;
+  text-shadow: 0px 0px 3px hsl(0deg 0% 0% / 0.5);
+  box-shadow: 1px 2px 4px hsl(0deg 0% 0% / 0.3);
+  filter: drop-shadow(1px 2px 6px hsl(0deg 0% 0% / 0.5));
 }
 
 footer {
@@ -146,7 +147,7 @@ footer.logo {
   width: fit-content;
   margin-right: auto;
   font-size: 2rem;
-  color: #0e8784;
+  color: #2c343e;
 }
 
 ul li a {
