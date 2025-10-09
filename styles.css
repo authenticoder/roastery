@@ -310,8 +310,8 @@ ul li a:hover {
 }
 
 .reason {
-  background: #0e8784;
-  color: #fdd6ba;
+  background: #f4efdc;
+  color: black;
   padding: 20px;
   border-radius: 8px 40px;
   width: fit-content;
@@ -404,7 +404,10 @@ figure img {
   display: block;
   border-bottom-left-radius: none;
   border-bottom-right-radius: none;
-  /* border-radius: 0px 40px 0px 40px; */
+}
+
+figure img {
+  filter: drop-shadow(1px 2px 6px hsl(0deg 0% 0% / 0.5));
 }
 
 figcaption {
