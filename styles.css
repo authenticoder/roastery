@@ -154,11 +154,6 @@ ul li a {
   padding: 10px;
 }
 
-ul li a:hover {
-  background-color: #0e8784;
-  color: #fefcf7;
-}
-
 .icons {
   display: flex;
   justify-content: center;
